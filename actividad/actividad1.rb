@@ -50,6 +50,8 @@ puts ("La suma de #{numeros.num1} + #{numeros.num2} es: #{operacion1.suma}")
 puts("La multiplicacion de #{numeros.num1} x #{numeros.num2}  es: #{operacion1.multiplicacion}")
 puts("La division de #{numeros.num1} y #{numeros.num2}  es: #{operacion1.division}")
 
+puts "\n"
+
 #Se crea el nuevo objeto de Operaciones
 numeros.num1 = 15
 numeros.num2 = 3
