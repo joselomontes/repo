@@ -1,0 +1,6 @@
+Hola 1
+Archivo1txt
+aqui
+Hola Mundo
+Este es el archivo numero 1
+Adios!
