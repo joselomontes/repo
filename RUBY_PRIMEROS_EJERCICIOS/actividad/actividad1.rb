@@ -1,4 +1,4 @@
-class Operaciones
+class Operations
 
   def initialize(number1, number2) #Constructor
   @number1 = number1

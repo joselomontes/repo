@@ -1,0 +1,8 @@
+PARA EJECUTAR ESCENARIOS
+
+1. Hacerlo desde la carpeta del proyecto y seguir el comando:
+
+cucumber features/[nombre del archivo.feature] --publish-quiet
+
+2DA OPCION
+Correrlo desde la carpeta de "Rubymineprojects"

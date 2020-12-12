@@ -27,17 +27,17 @@ end
 
 #Se crea primer objeto de operaciones
 numeros = Numeros.new(20, 10)
-operacion1 = Operaciones.new(numeros.num1, numeros.num2)
+operacion1 = Operations.new(numeros.num1, numeros.num2)
 puts ("La suma de #{numeros.num1} + #{numeros.num2} es: #{operacion1.suma}")
 puts("La multiplicacion de #{numeros.num1} x #{numeros.num2}  es: #{operacion1.multiplicacion}")
 puts("La division de #{numeros.num1} y #{numeros.num2}  es: #{operacion1.division}")
 
 puts "\n"
 
-#Se crea el nuevo objeto de Operaciones
+#Se crea el nuevo objeto de Operations
 numeros.num1 = 15
 numeros.num2 = 3
-operacion2 = Operaciones.new(numeros.num1, numeros.num2)
+operacion2 = Operations.new(numeros.num1, numeros.num2)
 puts ("La suma de #{numeros.num1} + #{numeros.num2}  es: #{operacion2.suma}")
 puts("La multiplicacion de #{numeros.num1} x #{numeros.num2}  es: #{operacion2.multiplicacion}")
 puts("La division de #{numeros.num1} y #{numeros.num2}  es: #{operacion2.division}")
