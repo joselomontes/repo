@@ -1,15 +1,14 @@
 require_relative '../../allOperations/arithmetic_operations.rb'
-require 'colorize'
 
-Given(/^I have a number1$/) do
-  @number1 = 4
+Given(/^I have the first number ([^"]*)$/) do |num|
+  @number1 = Integer(num)
 end
 
-And(/^I have a number2$/) do
-  @number2 = 2
+And(/^I have the second number ([^"]*)$/) do |num|
+  @number2 = Integer(num)
 end
 
-Then(/^I should see the ([^"]*) operation$/) do |option|
+Then(/^I should see the ([^"]*)$/) do |option|
   @operation = Operations.new(@number1,@number2)
 
   case option

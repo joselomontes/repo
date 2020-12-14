@@ -1,5 +1,3 @@
-require_relative 'valida_tipo_hash.rb'
-require_relative 'hashes.rb'
 
 class ValidaHash
 

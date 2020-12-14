@@ -1,4 +1,4 @@
-require_relative 'valida_hash.rb'
+require_relative 'valida_hash'
 
 class ValidaTipoH
 

@@ -1,4 +1,4 @@
-require_relative 'valida_tipo_hash.rb'
+require_relative 'valida_tipo_hash'
 
 printf "Escriba el tipo de palabra (nombre, pais, marca, numero, auto): "
 type = gets.chomp
